@@ -24,7 +24,9 @@ const Formulario = (props: FormularioProps) => {
             nome,
             cargo,
             imagem,
-            time
+            time,
+            colaboradores: [],
+            setColaboradores: []
         })
         setNome('')
         setCargo('')
